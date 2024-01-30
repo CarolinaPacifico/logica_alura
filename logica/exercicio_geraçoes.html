@@ -1,0 +1,24 @@
+<meta charset="UTF-8">
+
+<script>
+
+    function pulaLinha(){
+
+        document.write("<br>");
+
+    }
+
+    function mostra(){
+
+        document.write("A quantidade de gerações é " + Math.round(geracoesPassaram));
+        pulaLinha();
+    }
+
+    var media = 28;
+    var anosPassaram = 2023 - 1500;
+    var geracoesPassaram = anosPassaram / media;
+
+    mostra();
+
+
+</script>
